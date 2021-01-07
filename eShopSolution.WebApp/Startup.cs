@@ -41,7 +41,7 @@ namespace eShopSolution.WebApp
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            // web add
             app.UseRouting();
 
             app.UseAuthorization();
